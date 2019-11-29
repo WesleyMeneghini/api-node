@@ -1,0 +1,500 @@
+   57  .arrow img {
+   58  	padding-right: 20px;
+   59  	padding-top: 10px;
+   60  }
+   61  #geral {
+   62  	display: flex;
+   63  	justify-content:center;
+   64  }
+   65  .balls_area {
+   66  	display: flex;
+   67  	justify-content:space-between;
+   68  	width: 860px;
+   69  	margin-right:60px; 
+   70  	margin-left:60px;
+   71  }
+   72  .ball_bg1 {
+   73  	margin-top: 30px;
+   74  	width: 60px;
+   75  	height: 60px;
+   76  	border-radius: 30px;
+   77  	background-color: #2a5e59;	
+   78  }
+   79  .ball_bg2 {
+   80  	margin-top: 30px;
+   81  	width: 60px;
+   82  	height: 60px;
+   83  	border-radius: 30px;
+   84  	background-color: #48a5ad;
+   85  }
+   86  .ball_bg3 {
+   87  	margin-top: 30px;
+   88  	width: 60px;
+   89  	height: 60px;
+   90  	border-radius: 30px;
+   91  	background-color: #4ca390;
+   92  }
+   93  .ball_bg4 {
+   94  	margin-top: 30px;
+   95  	width: 60px;
+   96  	height: 60px;
+   97  	border-radius: 30px;
+   98  	background-color: #bcbdbf;
+   99  }
+  100  .ball_bg5 {
+  101  	margin-top: 30px;
+  102  	width: 60px;
+  103  	height: 60px;
+  104  	border-radius: 30px;
+  105  	background-color: #acd0ac;
+  106  }
+  107  .ball_bg1 img {
+  108  	padding:10px;
+  109  }
+  110  .ball_bg2 img {
+  111  	padding:7px;
+  112  }
+  113  .ball_bg3 img {
+  114  	padding:10px;
+  115  }
+  116  .ball_bg4 img {
+  117  	padding:8px;
+  118  }
+  119  .ball_bg5 img {
+  120  	padding:10px;
+  121  }
+  122  #ball_texts {
+  123  	display:flex;
+  124  	justify-content:center;
+  125  }
+  126  .ball_texts_area {
+  127  	display:flex;
+  128  	justify-content:space-between;
+  129  	width: 860px;
+  130  	margin-bottom: 30px;
+  131  }
+  132  .text_1,
+  133  .text_2,
+  134  .text_3,
+  135  .text_4,
+  136  .text_5 {
+  137  	font-size: 14px;
+  138  }
+  139  .text_1 {
+  140  	margin-top: 20px;
+  141  	margin-left:54px;
+  142  	margin-right: 50px;
+  143  	color: #2a5e59;
+  144  		
+  145  }
+  146  .text_2 {
+  147  	margin-top: 20px;
+  148  	margin-left: 6px;
+  149  	margin-right: 4px;
+  150  	color:#48a5ad;
+  151  }
+  152  .text_3 {
+  153  	margin-top: 20px;
+  154  	margin-left: 57px;
+  155  	color:#4ca390;
+  156  }
+  157  .text_4 {
+  158  	margin-top: 20px;
+  159  	margin-left: 51px;
+  160  	color:#bcbdbf;		
+  161  }
+  162  .text_5 {
+  163  	margin-top: 20px;
+  164  	margin-right: 12px;
+  165  	color:#acd0ac;
+  166  }
+  167  .widget_area {
+  168  	display:flex;
+  169  	justify-content:space-between;
+  170  	width: 860px;
+  171  	margin-top: 35
+  172  }
+  173  .widget_title h1 {
+  174  	color:#FFFFFF;
+  175  	font-size: 22px;
+  176  }
+  177  .widget_subtitle div {
+  178  	color:#FFFFFF;
+  179  	font-size: 13px;
+  180  }
+  181  .widget_text_area {
+  182  	width: 200px;
+  183  }
+  184  .widget_text_area a {
+  185  	text-decoration: none;
+  186  }
+  187  .widget_subtitle  article {
+  188  	margin-top: 10px;
+  189  	margin-left: 15px;
+  190  	margin-bottom: 20px;
+  191  	font-size: 12px;
+  192  	color: #FFFFFF;
+  193  	line-height: 22px;
+  194  }
+  195  article a {
+  196  	text-decoration: none;
+  197  	color:#FFFFFF;
+  198  }
+  199  article a:hover{
+  200      text-decoration: underline;
+  201  }
+  202  .widget2_text {
+  203  	margin-top: 10px;
+  204  	text-transform: uppercase;
+  205  	font-size: 15;
+  206  	font-weight: bold;
+  207  }
+  208  .put_email {
+  209  	display: block;
+  210  	margin-top: 3px;
+  211  	width: 230px;
+  212  	height: 26px;
+  213  	border-radius: 5px;
+  214  }
+  215  .button_cadastrar {
+  216  	display: flex;
+  217  	justify-content:center;
+  218  	align-items:center;
+  219  	margin-top: 15px;
+  220  	width: 195px;
+  221  	height: 50px;
+  222  	border: 3px solid #d1d2d4;
+  223  	border-radius: 5px;
+  224  }
+  225  .button_cadastrar h3 {
+  226  	font-size: 18px;
+  227  	color:#d1d2d4;
+  228  }
+  229  .contacts_list {
+  230  	
+  231  	margin-bottom: 10px;
+  232  }
+  233  .contacts_list div {
+  234  	font-size: 13px;
+  235  	color:#FFFFFF;
+  236  	line-height: 22px;
+  237  }
+  238  .contacts_list img {
+  239  	margin-right: 10px;
+  240  }
+  241  /* Conteúdos da pagina QuemSomos & Fale Conosco*/
+  242  .quemSomos, .faleConosco{
+  243      width: inherit;
+  244      height: inherit;
+  245      color: #ffffff;
+  246      font-size:18px;
+  247      line-height:1.5;
+  248  }
+  249  .quemSomos h1 {
+  250      color: #ffffff;
+  251      font-size:50px;
+  252      margin-top: 20px;
+  253      letter-spacing: 5px;
+  254      margin-bottom: 20px;
+  255  }
+  256  .formulario {
+  257      width: 500px;
+  258      height: inherit;
+  259      float: left;
+  260  }
+  261  .formulario textarea {
+  262      width: 350px;
+  263      height: 150px;
+  264      resize: none;
+  265  }
+  266  " > style.css
+  267  sudo mv style.css /var/www/$nomedosite/css/
+  268  #cd $nomedosite
+  269  #mv style.css css
+  270  #sudo mv $nomedosite/ /var/www/
+  271  firefox /var/www/$nomedosite/index.html
+  272  ls
+  273  cd 02\ Semestre/Programacao\ Web\ Front-end\ -\ Leonid/
+  274  ls
+  275  cd vscode/
+  276  ls
+  277  git init
+  278  git remote add origin https://github.com/WesleyMeneghini/PWFE.git
+  279  ls
+  280  git add Semaforo
+  281  git commit -m "colocando projeto do semaforo automatico no github"
+  282  git push
+  283  git push -u origin master
+  284  git log
+  285  git status
+  286  ls
+  287  git status
+  288  git add slide\ do\ zero/
+  289  git status
+  290  git commit -m "criando slideshow do zero"
+  291  git push -u origin master
+  292  git add consumir\ api/
+  293  git commit -m "consumindo api do site viacep"
+  294  git push -u origin master
+  295  exit
+  296  ls
+  297  cd c:
+  298  git status
+  299  ls
+  300  git status
+  301  git add 
+  302  git log
+  303  cd C:\xampp\htdocs\ds2t20192\wesley
+  304  git remote add origin https://github.com/WesleyMeneghini/Delicia-Gelada.git
+  305  cd xampp\htdocs\ds2t20192\wesley
+  306  git remote add origin https://github.com/WesleyMeneghini/Delicia-Gelada.git
+  307  git remote add origin https://github.com/WesleyMeneghini/Delicia-Gelada.git
+  308  git remote add origin https://github.com/WesleyMeneghini/Delicia-Gelada.git
+  309  ls
+  310  git add . 
+  311  git commit -m "colocando projeto no git, colocando alteracao da pagima cms fale conosco"
+  312  git push -u origin master
+  313  git init
+  314  git add slide-do-zero/
+  315  git status
+  316  git log
+  317  git commit -m "Criando slideshow do zero"
+  318  git push origin master
+  319  git push -u origin master
+  320  git add remote origin https://github.com
+  321  https://github.com
+  322  git add remote origin https://github.com/WesleyMeneghini/estudos-js
+  323  git add remote origin https://github.com/WesleyMeneghini/estudos-js.git
+  324  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  325  git push -u origin master
+  326  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  327  git init
+  328  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  329  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  330  git init
+  331  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  332  git add slide-do-zero/
+  333  git commit -m "Criando slideshow do zero"
+  334  git status
+  335  git push -u origin master
+  336  git add *
+  337  git status
+  338  git commit -m " Activitys feitas para estudos no senai"
+  339  git push -u origin master
+  340  git status
+  341  git add *
+  342  git status
+  343  ls
+  344  git add *
+  345  git commit -m "Git"
+  346  git push -u origin master
+  347  git init
+  348  git add *
+  349  git status
+  350  git remote add origin https://github.com/WesleyMeneghini/estudos-mobile.git
+  351  git add PsNews/
+  352  git status
+  353  git add *
+  354  ls
+  355  cd
+  356  cd ..
+  357  git init
+  358  git add *
+  359  git status
+  360  git init
+  361  git remote add origin https://github.com/WesleyMeneghini/mobile-01.git
+  362  git add *
+  363  git commit -m " funcionou"
+  364  git push -u origin master
+  365  git add PsNews2/
+  366  git status
+  367  git add *
+  368  git add -A
+  369  git status
+  370  ls
+  371  git push -u origin master
+  372  git status
+  373  git init
+  374  git add aulas/04\ interacao_com_o_banco_update/
+  375  git commit -m "Script no php com tabelas relacionadas com update dos dados"
+  376  git push -u origin master
+  377  git remote add origin https://github.com/WesleyMeneghini/Programacao-Web-Back-end.git
+  378  git push -u origin master
+  379  git status
+  380  git add aulas/
+  381  git commit -m "Script no php com tabelas relacionadas com update dos dados"
+  382  git status
+  383  clear
+  384  git init
+  385  git add aulas/
+  386  git status
+  387  git commit -m "Script no php com tabelas relacionadas com update dos dados"
+  388   git remote add origin https://github.com/WesleyMeneghini/Programacao-Web-Back-end.git
+  389  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git
+  390  git init
+  391  git add aulas/
+  392  git status
+  393  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git
+  394  git push -u origin master
+  395  git status
+  396  git push -u origin master
+  397  git push -u origin master
+  398  git init
+  399  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git
+  400  git add aulas/
+  401  git commit -m "Script no php com tabelas relacionadas com update dos dados"
+  402  git push -u origin master
+  403  ls
+  404  git init
+  405  git status
+  406  git status
+  407  git add api-vagalume/
+  408  git commit -m "colocando letra da musica no click"
+  409  git push -u origin master
+  410  git init
+  411  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+  412  git add api-vagalume/
+  413  git commit -m "colocando letra da musica no click"
+  414  git push -u origin master
+  415  git push -u origin master
+  416  git clone https://github.com/WesleyMeneghini/estudos-mobile.git AndroidStudioProjects/
+  417  git init
+  418  git remote add origin https://github.com/WesleyMeneghini/estudos-mobile.git 
+  419  git pull origin master
+  420  git status
+  421  git add -A 
+  422  git commit -m "deletando projeto desatualiazado"
+  423  git push -u origin master
+  424  git add *
+  425  git commit -m "deletando projeto desatualiazado"
+  426  git commit -m "deletando projeto "
+  427  clear
+  428  git status
+  429  git push -u origin master
+  430  git status
+  431  git add -A
+  432  git status
+  433  git commit -m "deletando projeto "
+  434  git push -u origin master
+  435  git add -A
+  436  git commit -m "Alteraçao da pagina categorias criando os elementos e a navigation view"
+  437  git push -u origin master
+  438  exit
+  439  git pull -u origin master
+  440  git pull origin master
+  441  git status
+  442  git add -A
+  443  git commit -m "Refazendo o aplicativo PsNews"
+  444  git push -u origin master
+  445  git pull
+  446  git pull origin master
+  447  git status
+  448  git add -A
+  449  git commit -m "Colocando o Drawer layout na activity categories e inicando o layout o uso do RecyclerView"
+  450  git push
+  451  git remote -v
+  452  git remote -v
+  453  git init
+  454  git remote add origin https://github.com/WesleyMeneghini/DeliciaGelada.git
+  455  git remote -v
+  456  git pull origin master
+  457  git status
+  458  git status
+  459  git status
+  460  git init
+  461  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git
+  462  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git teste/
+  463  cd teste/
+  464  git init
+  465  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git teste/
+  466  git remote add origin https://github.com/WesleyMeneghini/interacao-bd.git
+  467  git pull origin master
+  468  git status
+  469  git add 05\ -\ upload\ de\ imagens/
+  470  git status
+  471  git commit -m "Criando o upload de imagens no banco de dados"
+  472  git push
+  473  git push origin master
+  474  git add 04\ interacao_com_o_banco_update/
+  475  git commit -m "CRUD sem o upload de imagens"
+  476  git push
+  477  git push origin master
+  478  git add -A
+  479  git status
+  480  git commit -m "Alterando endereco do arquivo"
+  481  git push origin master
+  482  git init
+  483  git remote add origin https://github.com/WesleyMeneghini/hotSite.git
+  484  git pull origin master
+  485  git status
+  486  git add -A
+  487  git commit -m "Criando a secao de programacao e descricao"
+  488  git push origin master
+  489  git init
+  490  git remote add origin https://github.com/WesleyMeneghini/crud-mvc.git
+  491  git pull origin master
+  492  ls
+  493  git status
+  494  git status
+  495  git add -A
+  496  git commit -m "Listando os dados do banco e trazendo para a index como Objeto"
+  497  git push origin master
+  498  npm init
+  499  npm install -save express
+  500  node server.js
+  501  node server.js
+  502  node server.js
+  503  node server.js
+  504  node server.js
+  505  node server.js
+  506  node server.js
+  507  node stop
+  508  node server.js
+  509  node server.js
+  510  node server.js
+  511  node server.js
+  512  node server.js
+  513  node server.js
+  514  node server.js
+  515  node server.js
+  516  node server.js
+  517  node server.js
+  518  node server.js
+  519  node server.js
+  520  node server.js
+  521  node server.js
+  522  node server.js
+  523  node server.js
+  524  node server.js
+  525  node server.js
+  526  node server.js
+  527  node server.js
+  528  node server.js
+  529  node server.js
+  530  node server.js
+  531  node server.js
+  532  node server.js
+  533  node server.js
+  534  npm install --save nodemon
+  535  nodemon server.js
+  536  npm install -save nodemon
+  537  npm install -save mysq
+  538  npxnodemon server.js 
+  539  npx nodemon server.js 
+  540  npm install -save mysql
+  541  mysql --version
+  542  npm install -save mysql
+  543  npx nodemon server.js 
+  544  npm --version mysql
+  545  npx nodemon server.js 
+  546  npx nodemon server.js 
+  547  git init
+  548  git remote add origin https://github.com/WesleyMeneghini/api-node.git
+  549  git pull origin master
+  550  git status
+  551  git add connect.js routers/ server.js 
+  552  git commit -m "criando os metodos da rest"
+  553  git push origin master
+  554  history
+  555  cat history > historico-comando.txt
+  556  history > historico-comando.txt
