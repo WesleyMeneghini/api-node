@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form. Client</title>
+    <script src="js/jquery.js"></script>
+
+    <!-- <script>
+        $.ajax({
+            url: "http://10.107.140.42:3000/clients",
+            type: "POST",
+            data: JSON.stringify({"nome": "wesley"}),
+            dataType: "text",
+            success: (data) =>{
+                alert("tsete");
+            }
+        });
+
+        const dadosCliente = {"nome": "wesley"};
+    </script> -->
+</head>
+<body>
+
+    <h1>Register Client</h1>
+    <form action="" enctype="application/x-www-form-urlencoded">
+        <input type="text" name="txt_name" id="txt_name">
+        <input type="button" value="Register" id="btn_register">
+    </form>
+    <script src="js/api.js"></script>
+</body>
+</html>

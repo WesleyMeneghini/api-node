@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const conn = require ('../connect');
 
 const bd = [{
         "id": "1",

@@ -34,10 +34,11 @@ router.post("/", (req, res) =>{
   const sql = `insert into clientes(nome) values('${nome}');`;
   conn.query(sql, (err, result) =>{
     if(err){
-      res.json(err);
+      res.json(err + "errooo");
     }else{
-      res.json(result);
+      res.json(result + nome);
     }
+    
   });
 });
 
