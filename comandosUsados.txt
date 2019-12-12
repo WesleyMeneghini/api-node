@@ -1,0 +1,27 @@
+    1  git init
+    2  git add remote https://github.com/WesleyMeneghini/estudos-js.git
+    3  git remote add origin https://github.com/WesleyMeneghini/estudos-js.git
+    4  ls
+    5  git pull
+    6  ls
+    7  git clone https://github.com/WesleyMeneghini/estudos-js.git
+    8  ls
+    9  cd estudos-js/
+   10  ls
+   11  git add api-vagalume/
+   12  git commit -m "Tratando a mensagem de erro"
+   13  git push -u origin master 
+   14  exit
+   15  git status
+   16  .gitignore node_modules/
+   17  git .gitignore node_modules/
+   18  git add -A
+   19  git status
+   20  git add consumir\ dados/ server.js routers/
+   21  git commit -m "consumindo api e mandando requisiçoes pelo navegador"
+   22  git status
+   23  git push origin master
+   24  cat historico
+   25  cat history
+   26  history
+   27  history > comandosUsados.txt
